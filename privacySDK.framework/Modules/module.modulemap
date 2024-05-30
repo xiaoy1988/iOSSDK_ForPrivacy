@@ -1,0 +1,6 @@
+framework module privacySDK {
+  umbrella header "privacySDK.h"
+
+  export *
+  module * { export * }
+}
