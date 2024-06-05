@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
     s.name         = "PrivacySDKForCd"
-    s.version      = "1.0.5"
+    s.version      = "1.0.6"
     s.summary      = "IDFA、IDFV统一收口"
-    s.ios.deployment_target = "15.0"
-    s.osx.deployment_target = "17.0"
+    s.ios.deployment_target = "13.0"
+    s.osx.deployment_target = "13.0"
     s.description  = <<-DESC
 测试用SDK, 使用OC实现
     DESC
     s.homepage     = "https://github.com/xiaoy1988/iOSSDK_ForPrivacy"
     s.author           = { 'chendan6' => '694708086@qq.com' }
-    s.platform     = :ios, "15.0"
+    s.platform     = :ios, "13.0"
     s.source       = { :git => "https://github.com/xiaoy1988/iOSSDK_ForPrivacy", :tag => s.version }
     s.source_files = 'PrivacySDKForCd/*'
   # 过不支持真机调试则加上下面的
