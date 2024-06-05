@@ -4,33 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/privacySDK.h</key>
+		<key>Headers/PrivacySDKForCd.h</key>
 		<data>
-		Puv7IwLN28ozDMrH9zmo8rhfzUc=
+		F8eAvpquoq5+wSKrrmkya1+ll2A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J71mGQQE51rtJQN4tU6YHpgrWvo=
+		Ry5gJbfwKk+DsNf/7bCeuv0zeKo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		FmTgxLR1GT9ZF6p2YSiBLGWN+BA=
+		s2mLmPIeJVwhpeeJS7+RQqZvRng=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/privacySDK.h</key>
+		<key>Headers/PrivacySDKForCd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZhlOY2QI29bQm0f7WA1RLLpG12quW2/wVkDx5mLMa4M=
+			HmgDrBHdkMdyeAomfUJyUg2EtInGrsNuBbjiWTx2s1Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U0Ua+A6vqRwX7t1DtnAIFgIn2nBA+KHAGmAqD1T7wrI=
+			3U0vBEyotUByDJi6sPu/SachdUqK2r8fn1iUy5Jg0Bw=
 			</data>
 		</dict>
 	</dict>

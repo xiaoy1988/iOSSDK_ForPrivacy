@@ -7,129 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8458742F2C0820960083B811 /* privacySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8458742E2C0820960083B811 /* privacySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		845874392C0822DD0083B811 /* idCollectHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 845874372C0822DD0083B811 /* idCollectHandle.h */; };
-		8458743A2C0822DD0083B811 /* idCollectHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 845874382C0822DD0083B811 /* idCollectHandle.m */; };
-		CF3B58509E235607C807387E /* libPods-privacySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73668CA4DBCE9D66D32AF12C /* libPods-privacySDK.a */; };
+		845874D42C0FFBA70083B811 /* PrivacySDKForCd.h in Headers */ = {isa = PBXBuildFile; fileRef = 845874D32C0FFBA70083B811 /* PrivacySDKForCd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845874DC2C0FFC0A0083B811 /* idCollectHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 845874DA2C0FFC0A0083B811 /* idCollectHandle.m */; };
+		845874DD2C0FFC0A0083B811 /* idCollectHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 845874DB2C0FFC0A0083B811 /* idCollectHandle.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C948205B12E439CDDC624BF /* Pods-privacySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-privacySDK.release.xcconfig"; path = "Target Support Files/Pods-privacySDK/Pods-privacySDK.release.xcconfig"; sourceTree = "<group>"; };
-		73668CA4DBCE9D66D32AF12C /* libPods-privacySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-privacySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8458742B2C0820960083B811 /* privacySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = privacySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8458742E2C0820960083B811 /* privacySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privacySDK.h; sourceTree = "<group>"; };
-		845874372C0822DD0083B811 /* idCollectHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idCollectHandle.h; sourceTree = "<group>"; };
-		845874382C0822DD0083B811 /* idCollectHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idCollectHandle.m; sourceTree = "<group>"; };
-		C3F795FCD0A59F16AE00373B /* Pods-privacySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-privacySDK.debug.xcconfig"; path = "Target Support Files/Pods-privacySDK/Pods-privacySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		845874D02C0FFBA70083B811 /* PrivacySDKForCd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrivacySDKForCd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845874D32C0FFBA70083B811 /* PrivacySDKForCd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacySDKForCd.h; sourceTree = "<group>"; };
+		845874DA2C0FFC0A0083B811 /* idCollectHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idCollectHandle.m; sourceTree = "<group>"; };
+		845874DB2C0FFC0A0083B811 /* idCollectHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idCollectHandle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		845874282C0820960083B811 /* Frameworks */ = {
+		845874CD2C0FFBA70083B811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3B58509E235607C807387E /* libPods-privacySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		402B46CC6EF20FA2CC12B75B /* Pods */ = {
+		845874C62C0FFBA70083B811 = {
 			isa = PBXGroup;
 			children = (
-				C3F795FCD0A59F16AE00373B /* Pods-privacySDK.debug.xcconfig */,
-				5C948205B12E439CDDC624BF /* Pods-privacySDK.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
-		845874212C0820960083B811 = {
-			isa = PBXGroup;
-			children = (
-				8458742D2C0820960083B811 /* privacySDK */,
-				8458742C2C0820960083B811 /* Products */,
-				402B46CC6EF20FA2CC12B75B /* Pods */,
-				B7E73756EF5FCD7697024FAC /* Frameworks */,
+				845874D22C0FFBA70083B811 /* PrivacySDKForCd */,
+				845874D12C0FFBA70083B811 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8458742C2C0820960083B811 /* Products */ = {
+		845874D12C0FFBA70083B811 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8458742B2C0820960083B811 /* privacySDK.framework */,
+				845874D02C0FFBA70083B811 /* PrivacySDKForCd.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8458742D2C0820960083B811 /* privacySDK */ = {
+		845874D22C0FFBA70083B811 /* PrivacySDKForCd */ = {
 			isa = PBXGroup;
 			children = (
-				8458742E2C0820960083B811 /* privacySDK.h */,
-				845874372C0822DD0083B811 /* idCollectHandle.h */,
-				845874382C0822DD0083B811 /* idCollectHandle.m */,
+				845874D32C0FFBA70083B811 /* PrivacySDKForCd.h */,
+				845874DB2C0FFC0A0083B811 /* idCollectHandle.h */,
+				845874DA2C0FFC0A0083B811 /* idCollectHandle.m */,
 			);
-			path = privacySDK;
-			sourceTree = "<group>";
-		};
-		B7E73756EF5FCD7697024FAC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				73668CA4DBCE9D66D32AF12C /* libPods-privacySDK.a */,
-			);
-			name = Frameworks;
+			path = PrivacySDKForCd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		845874262C0820960083B811 /* Headers */ = {
+		845874CB2C0FFBA70083B811 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845874392C0822DD0083B811 /* idCollectHandle.h in Headers */,
-				8458742F2C0820960083B811 /* privacySDK.h in Headers */,
+				845874DD2C0FFC0A0083B811 /* idCollectHandle.h in Headers */,
+				845874D42C0FFBA70083B811 /* PrivacySDKForCd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8458742A2C0820960083B811 /* privacySDK */ = {
+		845874CF2C0FFBA70083B811 /* PrivacySDKForCd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 845874322C0820960083B811 /* Build configuration list for PBXNativeTarget "privacySDK" */;
+			buildConfigurationList = 845874D72C0FFBA70083B811 /* Build configuration list for PBXNativeTarget "PrivacySDKForCd" */;
 			buildPhases = (
-				D94E04681BD66FEFD5687D7C /* [CP] Check Pods Manifest.lock */,
-				845874262C0820960083B811 /* Headers */,
-				845874272C0820960083B811 /* Sources */,
-				845874282C0820960083B811 /* Frameworks */,
-				845874292C0820960083B811 /* Resources */,
+				845874CB2C0FFBA70083B811 /* Headers */,
+				845874CC2C0FFBA70083B811 /* Sources */,
+				845874CD2C0FFBA70083B811 /* Frameworks */,
+				845874CE2C0FFBA70083B811 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = privacySDK;
-			productName = privacySDK;
-			productReference = 8458742B2C0820960083B811 /* privacySDK.framework */;
+			name = PrivacySDKForCd;
+			productName = PrivacySDKForCd;
+			productReference = 845874D02C0FFBA70083B811 /* PrivacySDKForCd.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		845874222C0820960083B811 /* Project object */ = {
+		845874C72C0FFBA70083B811 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					8458742A2C0820960083B811 = {
+					845874CF2C0FFBA70083B811 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 845874252C0820960083B811 /* Build configuration list for PBXProject "privacySDK" */;
+			buildConfigurationList = 845874CA2C0FFBA70083B811 /* Build configuration list for PBXProject "PrivacySDKForCd" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,18 +111,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 845874212C0820960083B811;
-			productRefGroup = 8458742C2C0820960083B811 /* Products */;
+			mainGroup = 845874C62C0FFBA70083B811;
+			productRefGroup = 845874D12C0FFBA70083B811 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8458742A2C0820960083B811 /* privacySDK */,
+				845874CF2C0FFBA70083B811 /* PrivacySDKForCd */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		845874292C0820960083B811 /* Resources */ = {
+		845874CE2C0FFBA70083B811 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,44 +131,19 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D94E04681BD66FEFD5687D7C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-privacySDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		845874272C0820960083B811 /* Sources */ = {
+		845874CC2C0FFBA70083B811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8458743A2C0822DD0083B811 /* idCollectHandle.m in Sources */,
+				845874DC2C0FFC0A0083B811 /* idCollectHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		845874302C0820960083B811 /* Debug */ = {
+		845874D52C0FFBA70083B811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -256,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		845874312C0820960083B811 /* Release */ = {
+		845874D62C0FFBA70083B811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -312,9 +261,8 @@
 			};
 			name = Release;
 		};
-		845874332C0820960083B811 /* Debug */ = {
+		845874D82C0FFBA70083B811 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3F795FCD0A59F16AE00373B /* Pods-privacySDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -332,17 +280,17 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomi.privacySDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomi.privacySDK.PrivacySDKForCd;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		845874342C0820960083B811 /* Release */ = {
+		845874D92C0FFBA70083B811 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C948205B12E439CDDC624BF /* Pods-privacySDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -360,9 +308,10 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomi.privacySDK;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaomi.privacySDK.PrivacySDKForCd;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		845874252C0820960083B811 /* Build configuration list for PBXProject "privacySDK" */ = {
+		845874CA2C0FFBA70083B811 /* Build configuration list for PBXProject "PrivacySDKForCd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				845874302C0820960083B811 /* Debug */,
-				845874312C0820960083B811 /* Release */,
+				845874D52C0FFBA70083B811 /* Debug */,
+				845874D62C0FFBA70083B811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		845874322C0820960083B811 /* Build configuration list for PBXNativeTarget "privacySDK" */ = {
+		845874D72C0FFBA70083B811 /* Build configuration list for PBXNativeTarget "PrivacySDKForCd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				845874332C0820960083B811 /* Debug */,
-				845874342C0820960083B811 /* Release */,
+				845874D82C0FFBA70083B811 /* Debug */,
+				845874D92C0FFBA70083B811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 845874222C0820960083B811 /* Project object */;
+	rootObject = 845874C72C0FFBA70083B811 /* Project object */;
 }
