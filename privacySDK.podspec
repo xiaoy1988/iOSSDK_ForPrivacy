@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
     s.author           = { 'chendan6' => '694708086@qq.com' }
     s.platform     = :ios, "15.0"
     s.source       = { :git => "https://github.com/xiaoy1988/iOSSDK_ForPrivacy", :tag => s.version }
+    s.source_files = 'privacySDK/*'
   # 过不支持真机调试则加上下面的
     s.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
