@@ -10,6 +10,8 @@
 
 @implementation idCollectHandle
 
+static NSUUID *_idfv;
+static NSUUID *_idfa;
 
 + (BOOL)swizzleOriginMethod:(SEL)originalSEL withAlternateMethod:(SEL)alternateSEL {
     
@@ -68,41 +70,17 @@
 }
 
 - (NSUUID *)jf_identifierForVendor {
-    
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSObject * object = [defaults objectForKey:@"IDFV_runtimeSDK"];
-    
-    if(object == nil)
-    {
-        NSUUID *uuid = [self jf_identifierForVendor];
-        [defaults setValue:[uuid UUIDString] forKey:@"IDFV_runtimeSDK"];
-        
-        return uuid;
+    if(_idfv == nil) {
+        _idfv = [self jf_identifierForVendor];
     }
-    else
-    {
-        NSString *uuid_string = [defaults objectForKey:@"IDFV_runtimeSDK"];
-        return [[NSUUID UUID] initWithUUIDString:uuid_string];
-    }
+    return _idfv;
 }
 
 - (NSUUID *)jf_advertisingIdentifier {
-    
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSObject * object = [defaults objectForKey:@"IDFA_runtimeSDK"];
-    
-    if(object == nil)
-    {
-        NSUUID *uuid = [self jf_advertisingIdentifier];
-        [defaults setValue:[uuid UUIDString] forKey:@"IDFA_runtimeSDK"];
-        
-        return uuid;
+    if(_idfa == nil) {
+        _idfa = [self jf_advertisingIdentifier];
     }
-    else
-    {
-        NSString *uuid_string = [defaults objectForKey:@"IDFA_runtimeSDK"];
-        return [[NSUUID UUID] initWithUUIDString:uuid_string];
-    }
+    return _idfa;
 }
 
 @end
