@@ -1,6 +1,6 @@
 framework module PrivacySDKForCd {
   umbrella header "PrivacySDKForCd.h"
-
   export *
+
   module * { export * }
 }

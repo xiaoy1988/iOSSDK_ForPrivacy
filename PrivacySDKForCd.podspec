@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "PrivacySDKForCd"
-    s.version      = "1.0.7"
+    s.version      = "1.0.8"
     s.summary      = "IDFA、IDFV统一收口"
     s.ios.deployment_target = "13.0"
     s.osx.deployment_target = "13.0"
